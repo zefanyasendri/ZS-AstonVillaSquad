@@ -1,0 +1,2 @@
+rootProject.name = "ZS-AstonVillaSquad"
+include ':app'
