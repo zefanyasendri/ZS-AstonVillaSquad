@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ZSAstonVillaSquad">
-        <activity android:name=".HomeActivity"
-            android:label="Aston Villa Squad by ZS">
-        </activity>
+        <activity android:name=".DetailPlayerActivity"></activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="Aston Villa Squad by ZS"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

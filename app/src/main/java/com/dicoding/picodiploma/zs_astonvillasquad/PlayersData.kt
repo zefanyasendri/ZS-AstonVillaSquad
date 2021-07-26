@@ -36,6 +36,42 @@ object PlayersData {
         R.drawable.jack_grealish,
         R.drawable.bertrand_traore,
         R.drawable.wesley_moraes)
+//    private val playersImages = arrayOf(
+//        "https://bet-bet.net/wp-content/uploads/2021/03/Emiliano-Mart%C3%ADnez-450x450.png",
+//        "https://bet-bet.net/wp-content/uploads/2021/03/Matty-Cash-450x450.png",
+//        "https://bet-bet.net/wp-content/uploads/2021/03/Tyrone-Mings-450x450.png",
+//        "https://bet-bet.net/wp-content/uploads/2021/03/Matt-Targett-450x450.png",
+//        "https://bet-bet.net/wp-content/uploads/2021/03/Douglas-Luiz-450x450.png",
+//        "https://bet-bet.net/wp-content/uploads/2021/03/John-McGinn-450x450.png",
+//        "https://bet-bet.net/wp-content/uploads/2021/03/Ross-Barkley-450x450.png",
+//        "https://bet-bet.net/wp-content/uploads/2021/03/Jack-Grealish-450x450.png",
+//        "https://bet-bet.net/wp-content/uploads/2021/03/Bertrand-Traor%C3%A9-450x450.png",
+//        "https://bet-bet.net/wp-content/uploads/2021/03/Wesley-Moraes-450x450.png" )
+
+    private val playersPosition = arrayOf(
+        "Goalkeeper",
+        "Right Back",
+        "Center Back",
+        "Left Back",
+        "Defensive Midfielder",
+        "Center Midfielder",
+        "Attacking Midfielder",
+        "Left Winger",
+        "Right Winger",
+        "Center Forward")
+
+    private val playersNumber = arrayOf(
+        "Nomor 26",
+        "Nomor 2",
+        "Nomor 5",
+        "Nomor 18",
+        "Nomor 6",
+        "Nomor 7",
+        "Nomor 20",
+        "Nomor 10",
+        "Nomor 15",
+        "Nomor 9"
+    )
 
     val listData: ArrayList<Player>
         get() {
@@ -45,6 +81,9 @@ object PlayersData {
                 player.name = playerNames[position]
                 player.detail = playerDetails[position]
                 player.photo = playersImages[position]
+                player.position = playersPosition[position]
+                player.number = playersNumber[position]
+
                 list.add(player)
             }
             return list

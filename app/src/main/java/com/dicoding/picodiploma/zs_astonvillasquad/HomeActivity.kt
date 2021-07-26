@@ -13,6 +13,9 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
+        val actionbar = supportActionBar
+        actionbar!!.title= "Aston Villa Players"
+
         rvPlayers = findViewById(R.id.rv_players)
         rvPlayers.setHasFixedSize(true)
 
@@ -25,4 +28,24 @@ class HomeActivity : AppCompatActivity() {
         val listHeroAdapter = ListPlayerAdapter(list)
         rvPlayers.adapter = listHeroAdapter
     }
+
+//    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+//        menuInflater.inflate(R.menu.main_menu, menu)
+//        return super.onCreateOptionsMenu(menu)
+//    }
+
+//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+//        setMode(item.itemId)
+//        return super.onOptionsItemSelected(item)
+//    }
+
+//    private fun setMode(selectedMode: Int) {
+//        when (selectedMode) {
+//            R.id.miCompose -> {
+//                val iAbout = Intent(this@MainActivity,
+//                    About::class.java)
+//                startActivity(iAbout)
+//            }
+//        }
+//    }
 }
