@@ -2,7 +2,6 @@ package com.dicoding.picodiploma.zs_astonvillasquad
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
