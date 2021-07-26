@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">ZS-AstonVillaSquad</string>
+    <string name="profile">My Profile</string>
+
     <string name="players_name">Nama Pemain</string>
     <string name="detail">Details</string>
 
@@ -10,7 +12,7 @@
     <string name="content_position">content position</string>
     <string name="content_overview">content overview</string>
 
-    <string name="my_name">Zefanya Sendri</string>
-    <string name="my_email">zefanyasendri@gmail.com</string>
+    <string name="my_name">Zefanya Sendri Wiloso</string>
+    <string name="my_email">zefanyawiloso@gmail.com</string>
 
 </resources>

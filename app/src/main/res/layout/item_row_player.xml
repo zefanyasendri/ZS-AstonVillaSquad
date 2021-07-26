@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:textSize="16sp"
+            android:textColor="@color/white"
             android:textStyle="bold"
             tools:text="@string/players_name" />
         <TextView
