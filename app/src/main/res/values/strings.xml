@@ -2,4 +2,15 @@
     <string name="app_name">ZS-AstonVillaSquad</string>
     <string name="players_name">Nama Pemain</string>
     <string name="detail">Details</string>
+
+    <string name="players_position">Posisi Pemain</string>
+    <string name="players_overview">Detail Pemain</string>
+    <string name="players_number">Nomor Punggung</string>
+
+    <string name="content_position">content position</string>
+    <string name="content_overview">content overview</string>
+
+    <string name="my_name">Zefanya Sendri</string>
+    <string name="my_email">zefanyasendri@gmail.com</string>
+
 </resources>
